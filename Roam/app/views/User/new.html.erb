@@ -1,0 +1,18 @@
+<%= form_for @user do |f| %> 
+    <%= f.label :first_name %> 
+    <%= f.text_field :first_name %><br> 
+
+    <%= f.label :last_name %> 
+    <%= f.text_field :last_name %><br> 
+
+    <%= f.label :home_city %> 
+    <%= f.text_field :home_city %><br> 
+
+    <%= f.label :email %> 
+    <%= f.text_field :email %><br> 
+
+    <%= f.label :email_confirmation %> 
+    <%= f.text_field :email_confirmation %><br> 
+
+    <%= f.submit %> 
+<% end %> 
